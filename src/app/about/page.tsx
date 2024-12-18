@@ -1,12 +1,12 @@
+import About from "@/components/About/about";
 import { Footer } from "@/components/footer";
-import { Main } from "@/components/Home/main";
 import { Navbar } from "@/components/navbar";
 
-export default function Home() {
+export default function AboutPage() {
   return (
-    <div className="font-sans antialiased bg-gray-50">
+    <div>
       <Navbar />
-      <Main />
+      <About />
       <Footer />
     </div>
   );

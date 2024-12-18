@@ -1,12 +1,12 @@
 import { Footer } from "@/components/footer";
-import { Main } from "@/components/Home/main";
 import { Navbar } from "@/components/navbar";
+import { Teams } from "@/components/Teams/teams";
 
-export default function Home() {
+export default function TeamsPage() {
   return (
-    <div className="font-sans antialiased bg-gray-50">
+    <div>
       <Navbar />
-      <Main />
+      <Teams />
       <Footer />
     </div>
   );

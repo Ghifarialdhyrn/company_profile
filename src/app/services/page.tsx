@@ -1,12 +1,12 @@
 import { Footer } from "@/components/footer";
-import { Main } from "@/components/Home/main";
 import { Navbar } from "@/components/navbar";
+import Services from "@/components/Services/services";
 
-export default function Home() {
+export default function ServicesPage() {
   return (
-    <div className="font-sans antialiased bg-gray-50">
+    <div>
       <Navbar />
-      <Main />
+      <Services />
       <Footer />
     </div>
   );
